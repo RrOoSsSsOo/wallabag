@@ -93,7 +93,7 @@ class AppKernel extends Kernel
             } else {
                 $container->loadFromExtension('framework', [
                     'assets' => [
-                        'base_url' => $container->getParameter('domain_name'),
+                        // 'base_url' => $container->getParameter('domain_name'),
                     ],
                 ]);
             }
